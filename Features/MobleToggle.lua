@@ -1,7 +1,7 @@
 -- This Script Is For Moble Users To able To Toggle The Gui.
 -- And Yes Its source Take The Code If You Want.
 
-if game.PlaceId == 2788229376 and not game.CoreGui:FindFirstChild("MobleToggleButton") and game.CoreGui:FindFirstChild("AFV2") then
+if game.PlaceId == 2788229376 and not game.CoreGui:FindFirstChild("MobleToggleButton") and game.CoreGui:FindFirstChild("Auto Farm V1.2") then
 	local Gui = Instance.new("ScreenGui")
 	local UIListLayout = Instance.new("UIListLayout")
 	local Frame = Instance.new("Frame")
@@ -51,16 +51,16 @@ if game.PlaceId == 2788229376 and not game.CoreGui:FindFirstChild("MobleToggleBu
 	
 	local TweenService = game:GetService("TweenService")
 	
-	local AFV2 = game:GetService("CoreGui"):FindFirstChild("AFV2")
+	local Gui = game:GetService("CoreGui"):FindFirstChild("Auto Farm V1.2")
 	
 	Toggle.MouseButton1Click:Connect(function()
-		if AFV2 == nil then Player:Kick("Error: 203") return end
+		if Gui == nil then Player:Kick("Error: 203") return end
 		if Toggle.Text == "Close" then
 			Toggle.Text = "Open"
-			AFV2:FindFirstChild("Main").Visible = false
+			Gui:FindFirstChild("Main").Visible = false
 		else
 			Toggle.Text = "Close"
-			AFV2:FindFirstChild("Main").Visible = true
+			Gui:FindFirstChild("Main").Visible = true
 		end
 	end)
 	
