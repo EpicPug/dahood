@@ -1,4 +1,4 @@
--- This Script Is For Moble Users To able To Toggle The Gui.
+=-- This Script Is For Moble Users To able To Toggle The Gui.
 -- And Yes Its source Take The Code If You Want.
 
 local PlaceId = 2788229376
@@ -67,9 +67,11 @@ Button.MouseButton1Click:Connect(function()
 	if Button.Text == "Close" then
 		Button.Text = "Open"
 		Gui:FindFirstChild("Main").Visible = false
+		Gui:FindFirstChild("SubMain").Visible = false
 	else
 		Button.Text = "Close"
 		Gui:FindFirstChild("Main").Visible = true
+		Gui:FindFirstChild("SubMain").Visible = true
 	end
 end)
 
