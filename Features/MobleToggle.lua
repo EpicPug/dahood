@@ -1,4 +1,4 @@
-=-- This Script Is For Moble Users To able To Toggle The Gui.
+-- This Script Is For Moble Users To able To Toggle The Gui.
 -- And Yes Its source Take The Code If You Want.
 
 local PlaceId = 2788229376
