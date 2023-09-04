@@ -67,11 +67,9 @@ Button.MouseButton1Click:Connect(function()
 	if Button.Text == "Close" then
 		Button.Text = "Open"
 		Gui:FindFirstChild("Main").Visible = false
-		Gui:FindFirstChild("SubMain").Visible = false
 	else
 		Button.Text = "Close"
 		Gui:FindFirstChild("Main").Visible = true
-		Gui:FindFirstChild("SubMain").Visible = true
 	end
 end)
 
