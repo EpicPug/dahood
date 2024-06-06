@@ -1,3 +1,7 @@
+if not game:IsLoaded() then
+	game.Loaded:Wait()
+end
+
 local PlaceId = game.PlaceId
 local TargetPlaceId = 2788229376
 
