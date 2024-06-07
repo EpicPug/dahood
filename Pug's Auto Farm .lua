@@ -13,6 +13,10 @@ else
 	return
 end
 
+if game:GetService('CoreGui'):FindFirstChild('core?') then
+	return
+end
+
 repeat task.wait(1) until game.Players.LocalPlayer and game.Players.LocalPlayer.Character and game.Players.LocalPlayer:FindFirstChild('DataFolder')
 
 -- coming soon
