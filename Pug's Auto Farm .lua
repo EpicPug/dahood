@@ -23,4 +23,10 @@ pcall(function() loadstring(game:HttpGet('https://github.com/EpicPug/Stuff/blob/
 pcall(function() loadstring(game:HttpGet('https://raw.githubusercontent.com/EpicPug/Stuff/main/AntiSit.lua'))() end)'
 pcall(function() loadstring(game:HttpGet('https://raw.githubusercontent.com/EpicPug/Stuff/main/LowGfx.lua'))() end)
 
+pcall(function()
+	if tonumber(_G.config.FpsCap) then
+		setfpscap(_G.config.FpsCap)
+	end
+end)
+
 -- coming soon
