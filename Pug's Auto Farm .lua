@@ -40,6 +40,32 @@ pcall(function()
 	end
 end)
 
+_G.sideconfig = {
+	Mask = {
+		Name = "[Surgeon Mask] - $26",
+		Price = 26,
+		Tool = '[Mask]',
+		Equip = 'In-gameMask'
+	},
+	
+	Knife = {
+		Name = '[Knife] - $155',
+		Price = 155,
+		Tool = '[Knife]'
+	},
+	
+	Key = {
+		Name = '[Key] - $129',
+		Price = 129,
+		Tool = '[Key]'
+	},
+	
+	Pos = {
+		4,
+		-3.9
+	}
+}
+
 
 
 -- coming soon
