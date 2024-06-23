@@ -29,4 +29,17 @@ pcall(function()
 	end
 end)
 
+pcall(function()
+	if workspace:FindFirstChild('Baseplate?') == nil then
+		local i = Instance.new('Part')
+		i.Parent = workspace
+		i.Name = 'Baseplate?'
+		i.Position = Vector3.new(0,-500,0)
+		i.Size = Vector3.new(35,1,35)
+		i.Anchored = true
+	end
+end)
+
+
+
 -- coming soon
