@@ -42,24 +42,24 @@ end)
 
 _G.sideconfig = {
 	Mask = {
-		Name = "[Surgeon Mask] - $26",
-		Price = 26,
+		Name = "[Surgeon Mask] - $27",
+		Price = 27,
 		Tool = '[Mask]',
 		Equip = 'In-gameMask'
 	},
-	
+
 	Knife = {
-		Name = '[Knife] - $155',
-		Price = 155,
+		Name = '[Knife] - $159',
+		Price = 159,
 		Tool = '[Knife]'
 	},
-	
+
 	Key = {
-		Name = '[Key] - $129',
-		Price = 129,
+		Name = '[Key] - $133',
+		Price = 133,
 		Tool = '[Key]'
 	},
-	
+
 	Pos = {
 		4,
 		-3.9
