@@ -5,19 +5,15 @@ end
 local Place_Id = game.PlaceId
 local Target_PlaceId = 2788229376
 
-if Place_Id == Target_PlaceId then
-	print('Correct PlaceId')
-	print('Now loading!')
-else
-	print('Incorrect PlaceId. This script is intended for another game instance.')
+if Place_Id ~= Target_PlaceId then
 	return
 end
 
-if game:GetService('CoreGui'):FindFirstChild('core?') then
+if game.CoreGui:FindFirstChild('core?') then
 	return
 end
 
-repeat wait(1) until game.Players.LocalPlayer and game.Players.LocalPlayer.Character and game.Players.LocalPlayer:FindFirstChild('DataFolder')
+repeat task.wait(1) until game.Players.LocalPlayer and game.Players.LocalPlayer.Character and game.Players.LocalPlayer:FindFirstChild('DataFolder')
 
 pcall(function()loadstring(game:HttpGet('https://github.com/EpicPug/Stuff/blob/main/AntiAfk.lua'))()end)
 pcall(function()loadstring(game:HttpGet('https://raw.githubusercontent.com/EpicPug/Stuff/main/AntiSit.lua'))()end)
@@ -47,19 +43,19 @@ getgenv().sideconfig = {
 		Tool = '[Mask]',
 		Equip = 'In-gameMask'
 	},
-	
+
 	Knife = {
 		Name = '[Knife] - $159',
 		Price = 159,
 		Tool = '[Knife]'
 	},
-	
+
 	Key = {
 		Name = '[Key] - $133',
 		Price = 133,
 		Tool = '[Key]'
 	},
-	
+
 	Pos = {
 		4,
 		-3.9
