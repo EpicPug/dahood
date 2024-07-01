@@ -15,7 +15,7 @@ end
 
 repeat task.wait(1) until game.Players.LocalPlayer and game.Players.LocalPlayer.Character and game.Players.LocalPlayer:FindFirstChild('DataFolder')
 
-pcall(function()loadstring(game:HttpGet('https://github.com/EpicPug/Stuff/blob/main/AntiAfk.lua'))()end)
+pcall(function()loadstring(game:HttpGet('https://raw.githubusercontent.com/EpicPug/Stuff/main/AntiAfk.lua'))()end)
 pcall(function()loadstring(game:HttpGet('https://raw.githubusercontent.com/EpicPug/Stuff/main/AntiSit.lua'))()end)
 pcall(function()loadstring(game:HttpGet('https://raw.githubusercontent.com/EpicPug/Stuff/main/LowGfx.lua'))()end)
 pcall(function() if getgenv().config.UseAntiCheat then loadstring(game:HttpGet('https://raw.githubusercontent.com/EpicPug/FunControl/main/AntiCheatBypass.lua'))() end end)
@@ -62,3 +62,4 @@ getgenv().sideconfig = {
 		-3.9
 	}
 }
+
