@@ -25,6 +25,13 @@ pcall(function()
 end)
 
 _G.SideConfig = {
+	Mask = {
+		Name = "[Surgeon Mask] - $27",
+		Price = 27,
+		Tool = '[Mask]',
+		Equip = 'In-gameMask'
+	},
+	
 	Key = {
 		Name = '[Key] - $133',
 		Price = 133,
