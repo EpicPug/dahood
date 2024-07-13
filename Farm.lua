@@ -21,7 +21,7 @@ pcall(function()
 end)
 
 pcall(function()
-	setfpscap(_G.Config.Fps)
+	setfpscap(_G.Config["Fps"])
 end)
 
 getgenv().sideconfig = {
