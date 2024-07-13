@@ -25,20 +25,21 @@ pcall(function()
 end)
 
 getgenv().sideconfig = {
-	Mask = {
-		Name = "[Surgeon Mask] - $27",
-		Price = 27,
-		Tool = '[Mask]',
-		Equip = 'In-gameMask'
+	["Mask"] = {
+		["Name"] = "[Surgeon Mask] - $27",
+		["Price"] = 27,
+		["Tool"] = '[Mask]',
+		["Equip"] = 'In-gameMask'
 	},
 
-	Key = {
-		Name = '[Key] - $133',
-		Price = 133,
-		Tool = '[Key]'
+	["Key"] = {
+		["Name"] = '[Key] - $133',
+		["Price"] = 133,
+		["Tool"] = '[Key]'
 	},
 
-	Pos = {
-		4, -3.9
+	["Pos"] = {
+		4,
+		-3.9
 	}
 }
