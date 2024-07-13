@@ -26,7 +26,7 @@ end)
 
 getgenv().sideconfig = {
 	["Mask"] = {
-		Name = "[Surgeon Mask] - $27",
+		Name = '[Surgeon Mask] - $27',
 		Price = 27,
 		Tool = '[Mask]',
 		Equip = 'In-gameMask'
