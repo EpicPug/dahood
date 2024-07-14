@@ -21,5 +21,5 @@ pcall(function()
 end)
 
 pcall(function()
-	setfpscap(getgenv().config["Fps"])
+	setfpscap(getgenv().config["fps"])
 end)
