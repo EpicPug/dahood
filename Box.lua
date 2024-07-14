@@ -23,3 +23,18 @@ end)
 pcall(function()
 	setfpscap(getgenv().config["fps"])
 end)
+
+getgenv().sideconfig = {
+	["Mask"] = {
+		Name = '[Surgeon Mask] - $27',
+		Price = 27,
+		Tool = '[Mask]',
+		Equip = 'In-gameMask'
+	},
+
+	["Key"] = {
+		Name = '[Key] - $133',
+		Price = 133,
+		Tool = '[Key]'
+	},
+}
