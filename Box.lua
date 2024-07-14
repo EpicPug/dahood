@@ -37,4 +37,6 @@ getgenv().sideconfig = {
 		Price = 133,
 		Tool = '[Key]'
 	},
+
+	["Pad"] = "Boxing Moveset (Require: Max Box Stat) - $0"
 }
