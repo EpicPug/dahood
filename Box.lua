@@ -21,6 +21,10 @@ pcall(function()
 end)
 
 pcall(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EpicPug/Stuff/main/Low.lua'))()
+end)
+
+pcall(function()
 	setfpscap(getgenv().config["fps"])
 end)
 
