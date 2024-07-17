@@ -1,4 +1,4 @@
-if game:IsLoaded() == false then
+if not game:IsLoaded() then
 	game.Loaded:Wait()
 end
 
@@ -10,7 +10,7 @@ if game.CoreGui:FindFirstChild('core?') then
 	return
 end
 
-repeat task.wait(1) until game.Players.LocalPlayer and game.Players.LocalPlayer.Character and game.Players.LocalPlayer:FindFirstChild('DataFolder')
+repeat task.wait(1) until game.Players.LocalPlayer and game.Players.LocalPlayer:FindFirstChild('DataFolder') and game.Players.LocalPlayer.Character
 
 pcall(function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/EpicPug/Stuff/main/AntiAfk.lua'))()
@@ -25,10 +25,10 @@ pcall(function()
 end)
 
 pcall(function()
-	setfpscap(getgenv().config["fps"])
+	setfpscap(getgenv().Settings["fps"])
 end)
 
-getgenv().sideconfig = {
+getgenv().Config = {
 	["Mask"] = {
 		Name = '[Surgeon Mask] - $27',
 		Price = 27,
@@ -43,4 +43,4 @@ getgenv().sideconfig = {
 	},
 
 	["Pad"] = "Boxing Moveset (Require: Max Box Stat) - $0"
-}
+} 
