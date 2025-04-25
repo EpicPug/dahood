@@ -1,6 +1,3 @@
--- this script is for moble users to able to Toggle the gui.
--- and yes its source take the code if you want.
-
 local PlaceId = 2788229376
 
 if game.PlaceId ~= PlaceId then
